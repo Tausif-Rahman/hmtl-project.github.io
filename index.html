@@ -10,15 +10,17 @@
                 <h1 class = "header_text">Hello hehe</h1>
             </div>
             <div class="gif_container">
-                <img src="./style/images/catgif.gif" alt="Cute animated illustration">
+                <img src="./style/images/simpsons-country.gif" alt="Cute animated illustration">
             </div>
             <div class = "buttons">
                 <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
                 <button class="btn" id="noButton" onmouseover="moveButton()">No</button>
                 <script>
-                    function nextPage() {
+                    /*function nextPage() {
                         window.location.href = "yes.html";
                     }
+                    */
+
                     
                     function moveButton() {
                         var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
