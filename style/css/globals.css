@@ -1,19 +1,391 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Inter:400,600,italic|Karantina:400,700");
-* {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+.home {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
-html,
-body {
-  margin: 0px;
-  height: 100%;
+
+.home .div {
+  background-color: #ffffff;
+  width: 1152px;
+  height: 2041px;
+  position: relative;
 }
-/* a blue color as a generic focus style */
-button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
+
+.home .overlap-group {
+  position: absolute;
+  width: 244px;
+  height: 243px;
+  top: 132px;
+  left: 764px;
 }
-a {
-  text-decoration: none;
+
+.home .ellipse {
+  position: absolute;
+  width: 243px;
+  height: 243px;
+  top: 0;
+  left: 0;
+  background-color: #edf7fa;
+  border-radius: 121.5px;
+}
+
+.home .element {
+  position: absolute;
+  width: 244px;
+  height: 243px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.home .rectangle {
+  position: absolute;
+  width: 208px;
+  height: 47px;
+  top: 381px;
+  left: 148px;
+  background-color: var(--primary);
+  border-radius: 2px;
+}
+
+.home .hi-my-name-is-tausif {
+  position: absolute;
+  width: 506px;
+  top: 131px;
+  left: 148px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 700;
+  color: var(--dark-color);
+  font-size: 44px;
+  letter-spacing: 0;
+  line-height: 60px;
+}
+
+.home .text-wrapper {
+  position: absolute;
+  width: 497px;
+  top: 276px;
+  left: 148px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .overlap {
+  position: absolute;
+  width: 1152px;
+  height: 1305px;
+  top: 507px;
+  left: 0;
+  background-color: #edf7fa;
+}
+
+.home .overlap-2 {
+  position: absolute;
+  width: 879px;
+  height: 345px;
+  top: 82px;
+  left: 145px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 10px #bbe1fa40;
+}
+
+.home .text-wrapper-2 {
+  position: absolute;
+  width: 374px;
+  top: 23px;
+  left: 23px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 700;
+  color: var(--dark-color);
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .overlap-3 {
+  position: absolute;
+  width: 409px;
+  height: 34px;
+  top: 125px;
+  left: 22px;
+}
+
+.home .text-wrapper-3 {
+  position: absolute;
+  width: 239px;
+  top: 0;
+  left: 170px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .vector {
+  top: 1px;
+  left: 156px;
+  position: absolute;
+  width: 1px;
+  height: 21px;
+}
+
+.home .text-wrapper-4 {
+  position: absolute;
+  width: 374px;
+  top: 0;
+  left: 0;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .provide-initial {
+  position: absolute;
+  width: 837px;
+  top: 170px;
+  left: 23px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .overlap-4 {
+  position: absolute;
+  width: 879px;
+  height: 405px;
+  top: 483px;
+  left: 145px;
+}
+
+.home .rectangle-2 {
+  position: absolute;
+  width: 879px;
+  height: 390px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.home .text-wrapper-5 {
+  position: absolute;
+  width: 374px;
+  top: 16px;
+  left: 23px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 700;
+  color: var(--dark-color);
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-6 {
+  position: absolute;
+  width: 239px;
+  top: 115px;
+  left: 192px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .img {
+  top: 117px;
+  left: 178px;
+  position: absolute;
+  width: 1px;
+  height: 21px;
+}
+
+.home .text-wrapper-7 {
+  position: absolute;
+  width: 374px;
+  top: 115px;
+  left: 22px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .provided-high-level {
+  position: absolute;
+  width: 830px;
+  top: 152px;
+  left: 22px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .overlap-5 {
+  position: absolute;
+  width: 879px;
+  height: 295px;
+  top: 940px;
+  left: 145px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.home .overlap-6 {
+  position: absolute;
+  width: 411px;
+  height: 85px;
+  top: 23px;
+  left: 38px;
+}
+
+.home .text-wrapper-8 {
+  position: absolute;
+  width: 374px;
+  top: 0;
+  left: 3px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 700;
+  color: var(--dark-color);
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-9 {
+  position: absolute;
+  width: 239px;
+  top: 51px;
+  left: 172px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .vector-2 {
+  top: 52px;
+  left: 158px;
+  position: absolute;
+  width: 1px;
+  height: 21px;
+}
+
+.home .text-wrapper-10 {
+  position: absolute;
+  width: 374px;
+  top: 51px;
+  left: 0;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .delivered-customer {
+  position: absolute;
+  width: 814px;
+  top: 123px;
+  left: 41px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-11 {
+  position: absolute;
+  height: 60px;
+  top: 19px;
+  left: 145px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.home .footer {
+  position: absolute;
+  width: 1152px;
+  height: 182px;
+  top: 1859px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.home .fb {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 51px;
+  left: 459px;
+}
+
+.home .linkedin {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 51px;
+  left: 661px;
+}
+
+.home .group {
+  position: absolute;
+  width: 37px;
+  height: 30px;
+  top: 51px;
+  left: 589px;
+}
+
+.home .insta {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 51px;
+  left: 524px;
+}
+
+.home .p {
+  position: absolute;
+  top: 106px;
+  left: 464px;
+  font-family: "Heebo", Helvetica;
+  font-weight: 400;
+  color: var(--dark);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
 }
